@@ -1,5 +1,5 @@
 
-[![pages-build-deployment](https://github.com/ashok2216-A/ashok2216_myportfolio.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ashok2216-A/ashok2216_myportfolio.github.io/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://riturajsingh18.github.io/portfolio-website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://riturajsingh18.github.io/portfolio-website/actions/workflows/pages/pages-build-deployment)
 
 
 
@@ -123,4 +123,4 @@ Make sure your website’s code is valid. You want people to take you seriously,
 Connect your LinkedIn profile to your website portfolio. This was mentioned briefly in a different section, but your LinkedIn profile can serve as a great resource to network with others within the web design industry. It is also a great way to show off your skillset and professional achievements.
 Include references and testimonials on your website portfolio. What is the first thing we do when we want to know how good a person or a company is at something? We look for testimonials or reviews from others who have had an experience with that person or company.
 
-# See My Website https://ashok2216-a.github.io/ashok2216_myportfolio.github.io/
+# See My Website https://riturajsingh18.github.io/portfolio-website//
