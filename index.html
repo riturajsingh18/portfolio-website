@@ -450,8 +450,9 @@
 
   #ManfbrhuWjA3KGoy {
     grid-area: 1 / 1 / 2 / 4;
-    display: grid;
-    place-items: center; /* Center content horizontally and vertically */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     position: relative; /* Change this to relative */
     min-height: 75vh; /* Use 75% of viewport height */
     min-width: 100%;
@@ -459,9 +460,8 @@
 
   #SbmTyC2Up1Q0MHbg video {
     width: 70%; /* Set video width to 70% */
-    height: 75%; /* Set video height to 75% */
+    height: 75%; /* Let the height adjust proportionally */
     display: block;
-    margin: 0 auto; /* Center the video horizontally */
     object-fit: cover;
   }
 
