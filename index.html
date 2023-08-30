@@ -692,9 +692,42 @@
 </section>
 
    <title>The Art of Data Analysis</title>
-
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .gradient-bg {
+    background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+    padding: 2rem;
+  }
   .content {
     padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+  strong {
+    font-weight: bold;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 </style>
 </head>
@@ -710,16 +743,16 @@
   <div>
     <div class="content">
       <ul>
-        <li><strong>- Data Exploration &amp; Visualization</strong></li>
-        <li><strong>- Statistical Modeling &amp; Hypothesis Testing</strong></li>
-        <li><strong>- Predictive Analytics &amp; Machine Learning</strong></li>
-        <li><strong>- Data Cleaning &amp; Preprocessing</strong></li>
-        <li><strong>- SQL Querying &amp; Database Management</strong></li>
-        <li><strong>- Business Intelligence &amp; Dashboards</strong></li>
-        <li><strong>- Data Storytelling &amp; Communication</strong></li>
-        <li><strong>- Problem-Solving &amp; Critical Thinking</strong></li>
+        <li><strong>Data Exploration &amp; Visualization</strong></li>
+        <li><strong>Statistical Modeling &amp; Hypothesis Testing</strong></li>
+        <li><strong>Predictive Analytics &amp; Machine Learning</strong></li>
+        <li><strong>Data Cleaning &amp; Preprocessing</strong></li>
+        <li><strong>SQL Querying &amp; Database Management</strong></li>
+        <li><strong>Business Intelligence &amp; Dashboards</strong></li>
+        <li><strong>Data Storytelling &amp; Communication</strong></li>
+        <li><strong>Problem-Solving &amp; Critical Thinking</strong></li>
       </ul>
-      <p><strong>I'm driven by the potential of data to unveil hidden truths and spark transformative change. 
+      <p><strong>I'm driven by the potential of data to unveil hidden truths and spark transformative change.
         Let's collaborate and weave data's magic into your endeavors!</strong></p>
     </div>
   </div>
@@ -728,122 +761,6 @@
       <img src="images/d02e64ff7ad49dfcfc9cff257fcd2124.svg" alt="Computer Data Analytics" loading="lazy">
     </div>
   </div>
-</section>
-
-   <title>Data Odyssey - Projects in Focus</title>
-<style>
-  /* Your CSS styles */
-</style>
-</head>
-<body>
-<!-- Page 10 Content -->
-<section id="page-10">
-  <p class=""My Creative Portfolio: Exploring the World of Cats and Dogs"" data-aos="fade-down" data-aos-delay="350">
-            
-           &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Project Report: Cat vs Dog Image Classification
-
-Project Steps :
-
-
-
-1. Import Libraries and Mount Google Drive
-
-
-
-The necessary libraries and modules are imported, and Google Drive is mounted to access the dataset.
-
-
-
-2. Load and Preprocess Images
-
-
-
-The training image paths are loaded, and the paths are shuffled randomly. The first five image paths are displayed to verify the loading process. The OpenCV library is used to read and resize the images, and the images are converted to arrays. The class labels are extracted from the image paths
-
-
-
-Illustrative Object Lightbulb
-Illustrative Object Laptop
-
-
-3. Split the Dataset
-
-
-
-The dataset is split into training and validation sets using the train_test_split function from scikit-learn. The sizes of the training and validation sets are displayed.
-
-
-4. Data Augmentation
-
-
-
-An ImageDataGenerator object is created to apply data augmentation techniques, such as rotation, shifting, shearing, zooming, and flipping, to the training images. This helps to increase the robustness and variability of the training data.
-
-
-
-5. Create the CNN Model
-
-
-
-A CNN model based on the LeNet architecture is defined using the Keras Sequential API. The model consists of convolutional, activation, and pooling layers, followed by fully connected layers. The model is compiled with the Adam optimizer and categorical cross-entropy loss.
-
-
-
-
-
-6. Train the Model
-
-
-
-The model is trained using the fit function with the training data and validation data. The number of epochs and batch size are defined. The training progress is displayed during the training process.
-
-
-
-7. Plot Training and Validation Accuracy
-
-
-
-The training and validation accuracy values are plotted against the number of epochs to visualize the model's learning progress.
-
-
-
-8. Save the Trained Model
-
-
-
-The trained model is saved to "/content/drive/MyDrive/best_model/cat_dog_new.model" for future use.
-
-
-
-Illustrative Object Desk
-
-9. Test the Model on Test Images
-
-
-
-The saved model is loaded, and the test images are processed to make predictions. The predictions are displayed along with the corresponding images. The image numbers and predicted labels are stored in a DataFrame for further analysis.
-
-
-
-10. Convert Predicted Labels to Numeric Values
-
-
-
-The predicted labels are converted from categorical values ("Cat" and "Dog") to numeric values (0 and 1) for analysis purposes.
-
-
-
-11. Create DataFrame with Image Numbers and Predicted Labels
-
-
-
-A DataFrame is created with columns for image numbers and predicted labels.
-
-
-
-Illustrative Object Computer
-  </p>
 </section>
 
         <section class="work section" id="Blogs">
