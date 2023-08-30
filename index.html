@@ -738,60 +738,24 @@
   #d9DSAfFBKVEKHD64 {
     grid-area: 1 / 1 / 2 / 4;
     display: grid;
-    position: absolute;
-    min-height: 100%;
+    position: relative; /* Change this to relative */
+    min-height: 100vh; /* Use viewport height here */
     min-width: 100%;
   }
 
-  #Ho1zdSPvzD1bOaUp {
-    z-index: 0;
-  }
-
-  #AvfqFOlGA1qBfFjr {
-    box-sizing: border-box;
+  #EyEJ52TOEo2IQQSe video {
     width: 100%;
     height: 100%;
-    transform: rotate(0deg);
-  }
-
-  #s3bWt9DQrkiZUVXi {
-    width: 100%;
-    height: 100%;
-    opacity: 1.0;
-  }
-
-  #EyEJ52TOEo2IQQSe {
-    transform: scale(1, 1);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-
-  #SlrzgXXVAzydVgIj {
-    width: 100%;
-    height: 100.04882812%;
-    top: -0.02441406%;
-    left: 0%;
-    transform: rotate(0deg);
-    position: absolute;
-    opacity: 1.0;
+    display: block;
+    object-fit: cover;
   }
 </style>
 </head>
 <body>
 <section id="page-16">
   <div id="d9DSAfFBKVEKHD64">
-    <div id="Ho1zdSPvzD1bOaUp">
-      <div id="AvfqFOlGA1qBfFjr">
-        <div id="s3bWt9DQrkiZUVXi">
-          <div id="EyEJ52TOEo2IQQSe" class="video_container">
-            <div id="SlrzgXXVAzydVgIj">
-              <video src="./assets/img/DataAnalytics.mp4" playsinline="" preload="none" autoplay="" muted="" loop="" style="width:100%;height:100%;display:block;object-fit:cover;"></video>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="EyEJ52TOEo2IQQSe" class="video_container">
+      <video src="./assets/img/DataAnalytics.mp4" playsinline preload="auto" autoplay muted loop></video>
     </div>
   </div>
   <div id="wJ0ThMAkL80FVuTG"></div>
